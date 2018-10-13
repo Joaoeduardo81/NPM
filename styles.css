@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.float-l {
+  float: left;
+}
+
+.top-left {
+  float: left;
+  width: 50%;
+}
+
+.top-links {
+  padding: 0;
+  margin: 0 auto;
+  text-align: justify;
+  float: right;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.background-city {
+  background-image: url(images/city-scape.svg);
+  background-color: rgb(32, 101, 136);
+}
+
+.top-search {
+  display: inline-block;
+}
+
+.top-search input {
+  background-color: rgb(31, 82, 111);
+  color: darkgray;
+  width: 40%;
+  height: 25px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.npm-logo {
+  float: left;
+  height: 80px;
+  padding: 20px 10px;
+  margin: 10px 40px;
+}
+
+.search-bar {
+  width: 70%;
+  padding: 10px;
+  margin: 0 5px;
+  overflow: hidden;
+  border-color: rgb(32, 101, 136);
+}
+
+.white-color {
+  color: white;
+}
+
+.bear-logo {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+}
+
+header {
+  margin: 0 auto;
+  width: 80%;
+  background-color: transparent;
+  color: white;
+}
+
+.header a {
+  color: white;
+  padding: 50px;
+  margin: 40px 0 40px 80px;
+}
+
+.search-bar-icon {
+  width: 50px;
+  float: left;
+  height: 25px;
+  color: white;
+  margin: 0;
+  background-image: url(images/search-icon.png);
+}
+
+.sign-up {
+  color: white;
+  background-color: rgb(240, 146, 51);
+  padding: 15px;
+  margin: 25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  text-align: center;
+  width: 15%;
+}
+
+.org {
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  background-color: rgb(39, 53, 71);
+  height: 450px;
+  display: block;
+}
+
+.collaboration-pic {
+  float: left;
+  width: 45%;
+  margin-left: 200px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.collab-list {
+  display: block;
+  margin: 10px 0 0 10px;
+}
+
+.sign-up-orgs {
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  margin: 10px 5% 0 0;
+  padding: 10px;
+  text-align: center;
+  width: 15%;
+}
+
+.whats-background {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  padding-top: 50px;
+  position: relative;
+  color: white;
+}
+
+.whats-block {
+  display: block;
+}
+
+.whats-background h2 {
+  margin: 80px 60px 10px 200px;
+}
+
+.whats-background a {
+  margin: 50px 20px 10px 200px;
+  text-align: left;
+  display: block;
+}
+
+.instal-npm {
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  margin: 20px 5% 0 200px;
+  padding: 8px;
+  text-align: center;
+  width: 10%;
+}
+
+.building-blocks {
+  margin: 50px auto;
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  display: block;
+}
+
+.text-blocks a {
+  color: rgb(135, 145, 156);
+}
+
+.find-discover-build {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.find-discover-build h3 {
+  margin-top: 10px;
+  color: rgb(83, 88, 98);
+}
+
+.find-discover-build p {
+  margin-top: 10px;
+  color: rgb(135, 145, 156);
+}
+
+.find {
+  width: 30%;
+  float: left;
+}
+
+.find i {
+  color: rgb(208, 74, 73);
+}
+
+.discover {
+  width: 30%;
+  float: left;
+}
+
+.build {
+  width: 30%;
+  float: left;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
